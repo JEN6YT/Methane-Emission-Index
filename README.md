@@ -1,11 +1,3 @@
 # Methane-Emission-Index
 
-This study presents a comprehensive analysis of feature importance selection
-methods aimed at identifying the key drivers of methane emissions globally. We
-identify eight critical features contributing to methane emissions. In addition, we
-apply four machine learning models, Support Vector Machine, LightGBM, XG-
-Boost, and Random Forest, to predict methane levels across various countries. Each
-model undergoes extensive hyperparameter tuning, followed by a rigorous perform-
-ance comparison. Our findings highlight that XGBoost consistently outperforms
-the other models, demonstrating its robust predictive capabilities across diverse
-contexts.
+This study presents a comprehensive analysis of feature importance selection methods aimed at identifying the key drivers of methane emissions globally. We identify eight critical features among 76  contributing most to methane emissions. In addition, we apply four machine learning models, Support Vector Machine, LightGBM, XGBoost, and Random Forest, to estimate methane level across various countries. Moreover, we determine and anlayze the local and global trend for methane emission across 220 countries and identify the top countries that have the steadiest and the most decrease as well the most increase in methane emission in the recent 30 years.
