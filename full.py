@@ -128,7 +128,7 @@ def input_data_to_excel(country_list):
 # input the data into excel
 # input_data_to_excel(country)
 
-# Transfer methane dataframe
+# Transform methane dataframe
 for col in methane_df.columns[3:]:
     methane_df[col] = pd.to_numeric(methane_df[col], errors='coerce')
     num_df = methane_df.select_dtypes(include='number')
